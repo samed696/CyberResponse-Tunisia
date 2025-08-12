@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>مركز الأمن السيبراني التونسي</title>
+    <meta charset="UTF-8">
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,18 +18,25 @@
         .logo {
             width: 200px;
             margin: 20px auto;
+            display: block;
+        }
+        .alert {
+            color: red;
+            font-weight: bold;
+            font-size: 24px;
         }
     </style>
 </head>
 <body>
     <h1>🚀 CyberResponse Hub - ISET DSI</h1>
     <p>أول نظام تونسي للاستجابة الآلية للهجمات الإلكترونية</p>
-    <div class="logo">
-        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="50" cy="50" r="45" fill="#3498db" />
-            <path d="M30,40 L50,20 L70,40 L60,40 L60,70 L40,70 L40,40 Z" fill="white" />
-        </svg>
+    <img class="logo" src="https://i.imgur.com/3JQZ7Yf.png" alt="شعار الأمن">
+    <p class="alert">التطوير قيد التنفيذ...</p>
+    
+    <!-- سجل الهجمات -->
+    <div id="attack-log">
+        <h2>آخر الهجمات المكتشفة</h2>
+        <p>⏱️ لم يتم اكتشاف هجمات بعد</p>
     </div>
-    <p>التطوير قيد التنفيذ...</p>
 </body>
 </html>
